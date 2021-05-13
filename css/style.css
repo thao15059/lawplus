@@ -1,0 +1,28 @@
+/* Reset */
+:root {
+  --main-background-color: #0a152a;
+  --secondary-background-color: #fbfbfb;
+  --main-color: #c8ac48;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747981;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  overflow: hidden;
+}
