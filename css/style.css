@@ -12,6 +12,7 @@
 
 a {
   text-decoration: none;
+  color: #747981;
 }
 
 body {
@@ -25,4 +26,134 @@ body {
   max-width: 1170px;
   margin: auto;
   overflow: hidden;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  border: 1px solid #f1f1f1;
+  padding: 15px 25px;
+  background: transparent;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover {
+  background: #c8ac48;
+  border: none;
+}
+
+/* header top */
+#header-top {
+  border-bottom: 0.5px solid #ededed;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top .header-top-left,
+.header-top .header-top-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-left div {
+  margin: 0 20px 0 0;
+}
+
+.header-top-left .fas {
+  margin: 0 15px 0 0;
+}
+
+.header-top .header-top-right .socials a {
+  margin: 0 0 0 20px;
+}
+
+.fas {
+  color: #bebebe;
+}
+
+.header-top .button button {
+  border: none;
+  background: #2f4771;
+  color: #fff;
+  padding: 15px 20px;
+  margin: 0 0 0 45px;
+  cursor: pointer;
+}
+
+/* navbar */
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.main-nav .list {
+  display: flex;
+}
+
+.main-nav .list li {
+  margin: 0 0 0 40px;
+  cursor: pointer;
+}
+
+.main-nav .list li:hover a {
+  color: #043ca5;
+}
+
+.main-nav .list .current a {
+  color: #043ca5;
+}
+
+/* showcase */
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: #333;
+  position: relative;
+}
+
+.showcase:before {
+  background: url("../images/showcase.png") no-repeat top center/cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.content .main-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+}
+
+.content .sub-title {
+  font-size: 18px;
+  padding: 0 0 40px 0;
+  font-weight: 400;
+}
+
+.content .group-button .btn {
+  margin: 0 15px 0 0;
 }
